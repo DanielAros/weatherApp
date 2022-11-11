@@ -1,0 +1,64 @@
+.containerCard{
+    width: 500px;
+    /* height: 200px; */
+    background-color: #d9d9d950;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.containerLeft{
+    width: 65%;
+    /* background-color: red; */
+}
+
+    .city{
+        font-style: italic;
+        font-weight: 600;
+    }
+
+    .grades{
+        font-size: 4rem;
+        font-weight: bold;
+        margin-left: 16px;
+        font-style: italic;
+    }
+
+    .date{
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-style: italic;
+    }
+
+.containerRigth{
+    width: 35%;
+    /* background-color: blue; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+    .containerImg{
+        width: 120px;
+        height: 110px;
+        /* background-color: aqua; */
+    }
+        .containerImg>img{  
+            width: 100px;
+            height: 100px;
+        }
+
+    .weatherMain{
+        font-size: 1.4rem;
+        font-style: italic;
+        font-weight: 500;
+    }
+    .weatherDescription{
+        font-size: 1rem;
+        font-style: italic;
+        font-weight: 500;
+    }

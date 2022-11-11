@@ -1,0 +1,31 @@
+.containerInput{
+    width: 350px;
+    /* height: 30px; */
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-style: none;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+}
+
+.iconSearchStyles{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    /* margin-left: 10px; */
+}
+
+.iconSearchStyles:hover{
+    cursor: pointer;
+}

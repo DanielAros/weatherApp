@@ -1,0 +1,12 @@
+.containerCard{
+    width: 520px;    
+    /* height: 200px; */
+    background-color: #d9d9d950;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: ; */
+}
